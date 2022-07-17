@@ -1,0 +1,20 @@
+.title {
+  background-color: rgb(238, 56, 56);
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+h1 {
+  letter-spacing: 2px;
+  margin: 0;
+  margin: 10px 0 10px;
+  text-transform: uppercase;
+  color: black;
+}
+.fa {
+  color: steelblue;
+}
+.fa:hover {
+  transform: rotate(20deg);
+}

@@ -1,0 +1,41 @@
+.income-expense {
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 5px 6px rgba(58, 73, 80, 0.685),
+    0 5px 6px rgba(58, 73, 80, 0.685);
+}
+
+.income-expense > div {
+  flex: 1;
+  text-align: center;
+  background-color: rgb(70, 189, 236);
+}
+
+.income,
+.expense,
+#balance {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 5px 0;
+  font-weight: bolder;
+}
+
+.income {
+  color: green;
+}
+.expense {
+  color: #c34234d3;
+}
+#balance {
+  color: rgb(72, 90, 255);
+}
+.bg-dark {
+  background-color: rgb(255, 248, 248);
+  margin: 0 2px;
+
+  border-radius: 3px;
+}
